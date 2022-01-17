@@ -6,9 +6,9 @@ namespace TikTok;
 
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\ClientInterface as GuzzleClientInterface;
-use TikTok\Exception\NotAllowHttpMethod;
 use Psr\Http\Message\ResponseInterface;
 use TikTok\Contract\ClientInterface;
+use TikTok\Exception\NotAllowHttpMethod;
 
 class Client implements ClientInterface
 {
